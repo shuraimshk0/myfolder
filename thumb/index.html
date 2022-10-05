@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            border: 2px solid black;
+            border-radius: 19px; 
+        }
+        body{
+            background-color: rgb(147, 98, 35); 
+        }
+    </style>
+</head>
+<body>
+    <img src="birthday-mug.jpeg" id="one" alt="" height="400" width="600">
+    <br>
+    <img src="birthday-mug.jpeg" alt="" height="100" width="145">
+    <img src="brother-mug.jpg" id="one" alt="" height="100" width="145" onclick="final(this.src)">
+    <img src="custom-coffee-mug.jpg" id="one" alt="" height="100" width="145" onclick="final(this.src)">
+    <img src="personalized-mugs.jpg" id="one" alt="" height="100" width="145" onclick="final(this.src)">
+<script>
+    function final(kuch){
+        document.getElementById("one").src=kuch;
+       
+    }
+    function three(){
+     
+        document.getElementById("one").src="custom-coffee-mug.jpg";
+    }
+    function four(){
+      
+        document.getElementById("one").src="personalized-mugs.jpg";
+    }
+
+</script>
+</body>
+</html>

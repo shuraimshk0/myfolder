@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="inc()">+</button>
+    <input type="text" readonly id="daim" style="width: 30px;" value="1">
+    <button onclick="dec()">-</button>
+    <script>
+        var a=1;
+        function inc() {
+            a++;
+            if(a>0 && a<=3)
+            {
+                document.getElementById("daim").value=a;
+            }
+            else{
+                alert("please tyoe 1 to 3")
+            }
+        }
+
+        function dec() {
+            a--;
+            if(a>0 && a<=3)
+            {
+                document.getElementById("daim").value=a;
+            }
+            else{
+                alert("please tyoe 1 to 3")
+            }
+        }
+    </script>
+    
+  
+</body>
+</html>

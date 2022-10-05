@@ -1,0 +1,10 @@
+#box{
+    height: 500px;
+    width: 320px;
+    background-color: pink;
+    border: 2px solid black;
+    margin-left: 50px;
+    position: relative;
+    top: 30px;
+
+}
